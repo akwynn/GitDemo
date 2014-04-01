@@ -31,9 +31,12 @@
 -(void)refreshCell:(AKbookModel *)model{
     int x = 0;
     int y = 0;
+  volatile int sum;
     x++;
     y++;
-
+    
+    sum = x + y;
+    
     LabelBookName.text = model.bookName;
     LabelSummary.text = model.bookSummary;
 }
