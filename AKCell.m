@@ -7,7 +7,7 @@
 //
 
 #import "AKCell.h"
-
+#pragma mark -- AKCell
 @implementation AKCell{
     
     __weak IBOutlet UILabel *LabelBookName;
